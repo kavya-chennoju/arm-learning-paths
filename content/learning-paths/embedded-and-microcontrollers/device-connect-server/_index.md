@@ -7,7 +7,7 @@ cascade:
 
 minutes_to_complete: 30
 
-who_is_this_for: This is a follow-on topic for developers who have a working Device Connect mesh and want to add a server layer on top. The server gives you a persistent device registry, distributed state, and security primitives (commissioning, ACLs) so you can operate a multi-network fleet from one place.
+who_is_this_for: This is a follow-on topic for developers building a globally connected fleet of edge devices and AI agents. Where the device-to-device Learning Path stayed on one local network, this one shows you how Device Connect's hosted server lets a robot in San Francisco, a robot in Tokyo, and an orchestrating agent in Bangalore find and call each other through a single namespace, with persistent registry, distributed state, and per-device cryptographic identity managed for you.
 
 learning_objectives:
     - Understand what the Device Connect server adds on top of the edge SDK and when you'd reach for it

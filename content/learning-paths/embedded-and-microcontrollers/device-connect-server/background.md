@@ -12,7 +12,7 @@ The [device-to-device Learning Path](/learning-paths/embedded-and-microcontrolle
 
 That model is useful when everything is close together. It works well for prototypes, lab demos, and small fleets on one local area network (LAN). It is also a good fit when a cloud round-trip would add unnecessary delay.
 
-As soon as the fleet grows, D2D mode starts to run out of road. You may need devices on different networks to talk to each other. You may need a registry that remembers devices after they disconnect. You may also need stronger identity, credential rotation, or audit logs.
+As soon as the fleet grows, D2D mode starts to run out of road. You may need devices on different networks to talk to each other, for example a robot in San Francisco, a sensor in Tokyo, and an AI agent in Bangalore all on the same fleet. You may need a registry that remembers devices after they disconnect. You may also need stronger identity, credential rotation, or audit logs.
 
 Use a Device Connect server when you need:
 
